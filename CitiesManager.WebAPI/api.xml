@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CitiesManager.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CitiesManager.WebAPI.Controllers.V1.AccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{CitiesManager.Core.Identity.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{CitiesManager.Core.Identity.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{CitiesManager.Core.Identity.ApplicationRole},CitiesManager.Core.ServiceContracts.IJwtService)">
+            <summary>
+            
+            </summary>
+            <param name="userManager"></param>
+            <param name="signInManager"></param>
+            <param name="roleManager"></param>
+        </member>
+        <member name="M:CitiesManager.WebAPI.Controllers.V1.AccountController.PostRegister(CitiesManager.Core.DTO.RegisterDTO)">
+            <summary>
+            
+            </summary>
+            <param name="registerDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CitiesManager.WebAPI.Controllers.V1.AccountController.IsEmailAlreadyRegistered(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CitiesManager.WebAPI.Controllers.V1.AccountController.PostLogin(CitiesManager.Core.DTO.LoginDTO)">
+            <summary>
+            
+            </summary>
+            <param name="loginDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CitiesManager.WebAPI.Controllers.V1.AccountController.GetLogout">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CitiesManager.WebAPI.Controllers.V1.CitiesController.GetCity(System.Guid)">
+            <summary>
+            To get list of cities (including city ID and city name) cron 'cities' table
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
