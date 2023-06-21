@@ -2,7 +2,7 @@
 ASP.Net Core Web API Project with Angular Client Application With clean architecture.<br>
 CRUD(create, read, update and delete) operation. <br>
 Login/Logout.
-<h1>Application Security</h1>
+<h1>Security</h1>
 Implements Authentication and Authorization.<br>
 Using Https.<br>
 Using JSON Web Token (JWT) for Security.
@@ -16,3 +16,5 @@ Manage the Controllers, filters, Middleware etc.
 <h1>Client Application</h1>
 Angular Application. <br>
 Manage Views.
+<h1>Testing</h1>
+Using Swagger
